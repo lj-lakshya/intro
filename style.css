@@ -1,0 +1,101 @@
+/*4th page*/
+#main4{
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 8vw;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-left: 50px;
+}
+#main4 button{
+    background-color: rgba(0, 255, 255, 0.638);
+    border: 2px solid rgba(127, 255, 212, 0.554);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    color: rgb(240, 248, 255);
+}
+#boxes{
+    display: flex;
+    gap: 10px;
+}
+#into{
+    background: repeating-linear-gradient(to right,
+            rgba(84, 79, 79, 0.203),
+            rgba(26, 24, 24, 0.569),
+            rgba(24, 26, 26, 0.502),
+            rgba(37, 34, 34, 0.162));
+    padding: 30px;
+    border-radius: 10px;
+}
+#into .heading{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:0.8;
+    color: aliceblue;
+}
+#h4{
+    position: relative;
+}
+#h4 .h4{
+    width: 150px;
+    color: aqua;
+    opacity: 60%;
+    position: absolute;
+}
+#content3{
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#boxes .box{
+    margin-bottom:10px;
+    padding: 20px;
+    color: rgb(143, 245, 179);
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background: repeating-linear-gradient(to bottom,
+            rgba(0, 255, 255, 0.729),
+            rgba(0, 255, 255, 0.307),
+            rgba(0, 255, 255, 0.136),
+            rgba(0, 255, 255, 0));
+}
+#boxes #box2{
+    margin-top: 30px;
+}
+#boxes img{
+    width: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+
+/*5th Page*/
+#social #photo{
+    display: flex;
+    gap: 5vw;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+}
+#social img{
+    width: 150px;
+    border-radius: 20%;
+}
+#last{
+    padding-top: 10vw;
+}
+#social p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
